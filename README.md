@@ -1,16 +1,57 @@
-# React + Vite
+## TripWise 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the Project
 
-Currently, two official plugins are available:
+TripWise is a simple travel planner website I built as part of my web development learning journey. The idea behind this project is to help users explore different places and plan the destinations they want to visit.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+ ## Features
 
-## React Compiler
+- Explore different travel destinations.
+- Search for places by destination or country name.
+- View details about a selected destination.
+- Add places to **My Trip** and remove them whenever needed.
+- Save selected destinations even after refreshing the page.
+- Get country information like capital and region using an API.
+- Use the website on both desktop and mobile.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ ## Technologies Used
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- CSS
+- Vite
+- Country information API
+- Local Storage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## If you want to run this project on your computer:
+
+1. Clone or download this repository.
+2. Open the project folder in VS Code.
+3. Open the terminal and run:
+
+   ```bash
+   npm install
+   ```
+
+4. Then run:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local link shown in your terminal.
+
+## What I Learned
+
+While building TripWise, I got to practise React components, state management, API fetching, search functionality, and saving data in local storage. I also learned more about styling a website for different screen sizes and fixing errors during development.
+
+This project helped me understand how the different parts of a frontend application work together.
+
+## Live Website
+
+https://tripwise21.netlify.app/
+
+## Repository
+
+You're currently viewing the source code for TripWise. Feel free to explore the files!
